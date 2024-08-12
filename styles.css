@@ -647,6 +647,12 @@ nav a:hover {
       }
   }
 
+  @media (max-width: 480px) {
+    .container {
+        max-width: 452px;
+    }
+  }
+
 /* Interview Section Styles */
 .interview-section {
     background: linear-gradient(45deg, #000044, #1f2c48);
@@ -867,5 +873,34 @@ nav a:hover {
 
     .slide {
         width: 350px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .interview-section {
+        padding:0 0;
+        max-width: 455px;
+    }
+
+    .interview-section .container {
+        max-width: 438px;
+        padding: 1rem 0;
+        padding-bottom: 0rem;
+        
+    }
+
+    .interview-section h2 {
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .slider-container {
+        height: 500px;
+        margin-bottom: 5.5rem;
+    }
+
+    .slide {
+        width: 340px;
     }
 }
